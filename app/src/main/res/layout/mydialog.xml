@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="410dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login2"
+    android:layoutDirection="ltr">
+
+    <TextView
+        android:id="@+id/tvTitleDialog"
+        android:layout_width="410dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:text="Prepare a recipe:"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tvIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Ingredients:"
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tvrecipes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="Recipe:"
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/btExitDialog"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/back"
+            android:layout_marginStart="10dp"/>
+
+        <Button
+            android:id="@+id/btFvDialog"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/favorite"
+            android:layout_marginStart="10dp"/>
+
+        <Button
+            android:id="@+id/btSave"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/save"
+            android:layout_marginStart="10dp"/>
+
+        <Button
+            android:id="@+id/btPublish"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/publish"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

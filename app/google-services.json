@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "92400651481",
+    "project_id": "cookshare-d35e2",
+    "firebase_url": "https://cookshare-d35e2-default-rtdb.firebaseio.com/",
+    "storage_bucket": "cookshare-d35e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92400651481:android:29274ca7c01c34013842c8",
+        "android_client_info": {
+          "package_name": "com.example.cookshare2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY3OGVmNgwEDvka6cU95matJqN_9EI_ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:background="@drawable/login2"
+    tools:context=".User">
+
+    <TextView
+        android:id="@+id/tvMyRecipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="My recipes:" />
+
+    <ListView
+        android:id="@+id/lvMyRecipes"
+        android:layout_width="409dp"
+        android:layout_height="530dp"></ListView>
+
+    <Spinner
+        android:id="@+id/spMySort"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btFault"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@drawable/help"
+        android:layout_gravity="center"
+        android:text="Button" />
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home" android:id="@+id/itm_home"/>
+    <item android:title="Added  recipe" android:id="@+id/itm_add_recipe"/>
+    <item android:title="Favourites" android:id="@+id/item_Recipes_liked" />
+</menu>

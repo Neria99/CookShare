@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/tvRecipesLiked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="recipes Liked:" />
+
+    <ListView
+        android:id="@+id/lvRecipesLiked"
+        android:layout_width="409dp"
+        android:layout_height="400dp"></ListView>
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Spinner
+            android:id="@+id/spSort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btHome"
+        android:layout_width="135dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Home" />
+
+
+</LinearLayout>

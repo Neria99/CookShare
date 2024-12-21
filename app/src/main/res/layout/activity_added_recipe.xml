@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/login2"
+    tools:context=".AddedRecipe">
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name recipe"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textColor="#333333" />
+
+    <EditText
+        android:id="@+id/edType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Type recipe"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textColor="#333333" />
+
+    <EditText
+        android:id="@+id/eddifficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Difficulty"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textColor="#333333" />
+
+    <EditText
+        android:id="@+id/edIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Ingredients"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textColor="#333333" />
+
+    <EditText
+        android:id="@+id/edRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Recipe"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textColor="#333333" />
+
+    <EditText
+        android:id="@+id/edPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Link to Picture"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textColor="#333333" />
+
+    <!-- Container for the buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/btAddR"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/add_recipes"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btBack"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/back"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
